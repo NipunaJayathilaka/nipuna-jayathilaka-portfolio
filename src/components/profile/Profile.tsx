@@ -5,14 +5,46 @@ export default function Profile() {
   return (
     <div className="main">
       <div className="galaxy-background">
-        <img id="img-one" src="/images/common/img2.png" alt="" />
-        <img id="img-two" src="/images/common/img2.png" alt="" />
-        <img id="img-tree" src="/images/common/img2.png" alt="" />
-        <img id="img-four" src="/images/common/img2.png" alt="" />
-        <img id="star-one" src="/images/common/star1.png" alt="" />
-        <img id="star-two" src="/images/common/star1.png" alt="" />
-        <img id="star-three" src="/images/common/star2.png" alt="" />
-        <img id="star-four" src="/images/common/star2.png" alt="" />
+        <img
+          id="img-one"
+          src="/nipuna-jayathilaka-portfolio/images/common/img2.png"
+          alt=""
+        />
+        <img
+          id="img-two"
+          src="/nipuna-jayathilaka-portfolio/images/common/img2.png"
+          alt=""
+        />
+        <img
+          id="img-tree"
+          src="/nipuna-jayathilaka-portfolio/images/common/img2.png"
+          alt=""
+        />
+        <img
+          id="img-four"
+          src="/nipuna-jayathilaka-portfolio/images/common/img2.png"
+          alt=""
+        />
+        <img
+          id="star-one"
+          src="/nipuna-jayathilaka-portfolio/images/common/star1.png"
+          alt=""
+        />
+        <img
+          id="star-two"
+          src="/nipuna-jayathilaka-portfolio/images/common/star1.png"
+          alt=""
+        />
+        <img
+          id="star-three"
+          src="/nipuna-jayathilaka-portfolio/images/common/star2.png"
+          alt=""
+        />
+        <img
+          id="star-four"
+          src="/nipuna-jayathilaka-portfolio/images/common/star2.png"
+          alt=""
+        />
         <h1 id="profile-topic">Welcome to Nipuna Jayathilaka's Portfolio!</h1>
 
         <div className="welcome-note">
@@ -68,13 +100,19 @@ export default function Profile() {
           </h3>
         </div>
         <div className="profile-image">
-          <img src="/images/profilePic.PNG" alt="Profile picture" />
+          <img
+            src="/nipuna-jayathilaka-portfolio/images/profilePic.PNG"
+            alt="Profile picture"
+          />
         </div>
       </div>
 
       <div className="about-me">
         <div className="about-me-image">
-          <img src="/images/aboutMe.PNG" alt="About Me" />
+          <img
+            src="/nipuna-jayathilaka-portfolio/images/aboutMe.PNG"
+            alt="About Me"
+          />
         </div>
         <div className="about-me-description">
           <h3>

@@ -11,7 +11,7 @@ export default function NavBar() {
         </div>
         <div className="">
           <div>
-            <Link to="/">Profile</Link>
+            <Link to="/nipuna-jayathilaka-portfolio">Profile</Link>
           </div>
           <div>
             <Link to="/skills">Skills</Link>
@@ -28,7 +28,10 @@ export default function NavBar() {
         </div>
         <div className="">
           <div>
-            <img className="personal-logo" src="/images/common/img3.png" />
+            <img
+              className="personal-logo"
+              src="/nipuna-jayathilaka-portfolio/images/common/img3.png"
+            />
           </div>
         </div>
       </div>

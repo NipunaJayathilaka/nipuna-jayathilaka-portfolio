@@ -8,7 +8,11 @@ export default function Footer() {
         <div className="contact-detail">
           <h4>Contact Details</h4>
           <div className="logo-text">
-            <img src="/images/footer/mail.png" alt="email" className="logo" />
+            <img
+              src="/nipuna-jayathilaka-portfolio/images/footer/mail.png"
+              alt="email"
+              className="logo"
+            />
             <a href="mailto:nipuna.m.bandara@gmail.com" className="links">
               nipuna.m.bandara@gmail.com
             </a>
@@ -16,7 +20,7 @@ export default function Footer() {
 
           <div className="logo-text">
             <img
-              src="/images/footer/phone.png"
+              src="/nipuna-jayathilaka-portfolio/images/footer/phone.png"
               alt="Phone Number"
               className="logo"
             />
@@ -30,7 +34,7 @@ export default function Footer() {
           <h4>Social Media</h4>
           <div className="logo-text">
             <img
-              src="/images/footer/linkdin.png"
+              src="/nipuna-jayathilaka-portfolio/images/footer/linkdin.png"
               alt="Linkdin"
               className="logo"
             />
@@ -44,7 +48,7 @@ export default function Footer() {
           </div>
           <div className="logo-text">
             <img
-              src="/images/footer/Facebook.png"
+              src="/nipuna-jayathilaka-portfolio/images/footer/Facebook.png"
               alt="FaceBook"
               className="logo"
             />
@@ -58,7 +62,7 @@ export default function Footer() {
           </div>
           <div className="logo-text">
             <img
-              src="/images/footer/github.png"
+              src="/nipuna-jayathilaka-portfolio/images/footer/github.png"
               alt="GitHub"
               className="logo"
             />
@@ -72,7 +76,7 @@ export default function Footer() {
           </div>
           <div className="logo-text">
             <img
-              src="/images/footer/twitter.png"
+              src="/nipuna-jayathilaka-portfolio/images/footer/twitter.png"
               alt="Twitter"
               className="logo"
             />

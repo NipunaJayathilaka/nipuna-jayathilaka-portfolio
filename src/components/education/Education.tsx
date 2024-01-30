@@ -8,7 +8,10 @@ export default function Education() {
 
       <div className="education-card">
         <div className="ins-logo">
-          <img src="/images/education/uom.png" alt="Logo" />
+          <img
+            src="/nipuna-jayathilaka-portfolio/images/education/uom.PNG"
+            alt="Logo"
+          />
         </div>
         <div className="ins-description">
           <h2>B.Sc.Eng (Hons) in University of Moratuwa </h2>
@@ -27,7 +30,10 @@ export default function Education() {
 
       <div className="education-card">
         <div className="ins-logo">
-          <img src="/images/education/school2.png" alt="Logo" />
+          <img
+            src="/nipuna-jayathilaka-portfolio/images/education/school2.png"
+            alt="Logo"
+          />
         </div>
         <div className="ins-description">
           <h2>G.C.E A/L, A/Thamuththegama Central Collage, Anuradhapura </h2>

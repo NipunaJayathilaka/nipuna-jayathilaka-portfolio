@@ -46,13 +46,19 @@ export default function Projects() {
           </h4>
         </div>
         <div className="">
-          <img src="/images/project/img1.png" alt="" />
+          <img
+            src="/nipuna-jayathilaka-portfolio/images/project/img1.png"
+            alt=""
+          />
         </div>
       </div>
 
       <div className="project-card">
         <div className="">
-          <img src="/images/project/img2.png" alt="" />
+          <img
+            src="/nipuna-jayathilaka-portfolio/images/project/img2.png"
+            alt=""
+          />
         </div>
         <div className="">
           <h2>
@@ -109,13 +115,19 @@ export default function Projects() {
           </h4>
         </div>
         <div className="">
-          <img src="/images/project/img3.png" alt="" />
+          <img
+            src="/nipuna-jayathilaka-portfolio/images/project/img3.png"
+            alt=""
+          />
         </div>
       </div>
 
       <div className="project-card">
         <div className="">
-          <img src="/images/project/img5.png" alt="" />
+          <img
+            src="/nipuna-jayathilaka-portfolio/images/project/img5.png"
+            alt=""
+          />
         </div>
         <div className="">
           <h2>
@@ -168,7 +180,10 @@ export default function Projects() {
           </h4>
         </div>
         <div className="">
-          <img src="/images/project/img4.png" alt="" />
+          <img
+            src="/nipuna-jayathilaka-portfolio/images/project/img4.png"
+            alt=""
+          />
         </div>
       </div>
     </div>
