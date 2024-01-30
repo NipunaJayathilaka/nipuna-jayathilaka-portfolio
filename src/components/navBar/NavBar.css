@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+ 
+.nav-bar {
+    /* background-color: rgb(237, 250, 57); */
+    /* background: linear-gradient(
+        to right,
+        rgb(10, 126, 194),
+        rgb(124, 240, 70),
+        yellow
+    ); */
+    height: 60px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid grey;
+    background-image: url("/public/images/ci2.jpg");
+    background-size: cover;
+}
+
+.nav-bar > div:first-child {
+    /* background-color: red; */
+    padding: 5px;
+    font-size: 25px;
+}
+
+.nav-bar > div:nth-child(2) {
+    padding: 5px;
+    display: flex;
+    /* background-color: yellow; */
+    width: auto;
+    justify-content: space-around;
+
+    div {
+        margin-right: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        color: blue;
+    }
+}
+
+/* .nav-bar > div:last-child {
+    padding: 5px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.personal-logo {
+    height: 40px;
+    animation: rotateAnimation 3s linear infinite;
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+

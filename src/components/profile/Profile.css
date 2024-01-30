@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    margin-top: 60px;
+}
+
+#profile-topic {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    animation: changeColor 8s infinite;
+}
+
+@keyframes changeColor {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: orange; }
+    100% { color: purple; }
+}
+
+.welcome-note {
+    /* padding: 10px 120px 10px 120px; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    div {
+        max-width: 900px;
+        text-align: justify;
+        /* border: 5px double black; */
+        padding: 10px 20px;
+        border-radius: 20px;
+        color: white;
+    }
+}
+
+.double-qutos {
+    color: #1e68d6;
+    font-size: 50px;
+}
+
+.profile-main {
+    display: flex;
+    padding: 20px 120px 20px 120px;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(
+        to bottom, rgb(199, 196, 196), rgb(87, 88, 87), rgb(7, 7, 7)
+    ); */
+    /* background-image: url('/public/images/bg2.jpg'); */
+}
+
+.profile-description {
+    margin-right: 20px;
+    /* border: 1px solid black; */
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+    /* box-shadow: 10px 10px 20px; */
+    /* background: linear-gradient(
+        135deg, rgb(233, 235, 145), #7cf382, rgb(236, 124, 221)
+    ); */
+    /* background-image: url('/public/images/CI2.webp');
+    background-size: cover; */
+}
+
+.profile-description:hover {
+    background: linear-gradient(
+        -135deg, rgb(240, 243, 51), #8ae666, rgb(124, 200, 236),rgb(240, 206, 14)
+    );
+}
+
+.profile-image img {
+    border-radius: 25%;
+    height: 25em;
+    box-shadow: 5px 5px 5px;
+}
+
+
+.about-me {
+    /* color: white; */
+    /* background: linear-gradient(
+        to bottom, rgb(199, 196, 196), rgb(87, 88, 87), rgb(7, 7, 7)
+    ); */
+    display: flex;
+    padding: 10px 120px 0 120px;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('/public/images/bg2.jpg'); */
+}
+
+.about-me-image img {
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px;
+}
+
+.about-me-description {
+    margin-left: 20px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    height: auto;
+    border-radius: 10px;
+    text-align: justify;
+    /* box-shadow: 10px 10px 20px; */
+    /* background: linear-gradient(
+        -135deg, rgb(233, 235, 145), #7cf382, rgb(236, 124, 221)
+    ); */
+    /* background-image: url('/public/images/CI1.jpg');
+    background-size: cover; */
+}
+
+.about-me-description:hover {
+    background: linear-gradient(
+        135deg, rgb(240, 243, 51), #8ae666, rgb(124, 200, 236),rgb(240, 206, 14)
+    );
+}
+
+.galaxy-background {
+    position: relative;
+    background-image: url("/public/images/galaxy.jpg");
+    z-index: -10;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+#img-one {
+    height: 100px;
+    position: absolute;
+    left: 70px;
+    top:250px;
+    z-index: -1;
+    animation: rotateAnimation 20s linear infinite;
+}
+
+#img-two {
+    height: 70px;
+    position: absolute;
+    left: 1100px;
+    top: 450px;
+    z-index: -1;
+    animation: rotateAnimation 10s linear infinite;
+}
+
+#img-tree {
+    height: 80px;
+    position: absolute;
+    right: 50px;
+    top:100px;
+    z-index: -1;
+    animation: rotateAnimation 20s linear infinite;
+}
+
+#img-four {
+    height: 50px;
+    position: absolute;
+    right: 800px;
+    top: 80px;
+    z-index: -1;
+    animation: rotateAnimation 20s linear infinite;
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#star-one {
+    height: 50px;
+    position: absolute;
+    right: 700px;
+    top: 0;
+    z-index: -2;
+    animation: moveToRight 10s linear infinite;
+}
+
+#star-two {
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    z-index: -2;
+    animation: moveToRight 20s linear infinite;
+}
+
+#star-three {
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -2;
+    animation: moveToLeft 20s linear infinite;
+}
+
+#star-four {
+    height: 50px;
+    position: absolute;
+    right: 500px;
+    top: 0;
+    z-index: -2;
+    animation: moveToLeft 15s linear infinite;
+}
+
+@keyframes moveToRight {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(calc(100vw + 20px), calc(100vh + 250px));
+    }
+}
+
+@keyframes moveToLeft {
+    0% {
+        transform: translate(0, 0) rotate(15deg);
+    }
+    100% {
+        transform: translate(calc(-100vw - 20px), calc(500px)) rotate(15deg);
+    }
+}

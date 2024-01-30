@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+.footer-component {
+    /* background-color: rgb(237, 250, 57); */
+    /* padding: 20px; */
+    padding: 0 20px 10px 20px;
+    border-top: 1px solid black;
+    /* background: linear-gradient(
+        to left,
+        rgb(10, 126, 194),
+        rgb(124, 240, 70),
+        yellow
+    ); */
+    background-image: url("/public/images/ci2.jpg");
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 20px;
+    margin-right: 20px;
+}
+
+.logo-text {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.section-two div {
+    text-align: center;
+}
+
+.links {
+    color: black;
+    font-weight: bold;
+}
+
+.personal-skill {
+    font-weight: bold;
+}
+
+.interest {
+    font-weight: bold;
+}

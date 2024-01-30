@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+#topic {
+    text-decoration: underline overline;
+    text-underline-offset: 5px;
+    text-underline-position: under;
+}
+
+.projects {
+    margin-top: 40px;
+    padding: 20px 120px 20px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card {
+    /* background-color: green; */
+    max-width: 1000px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+
+    img {
+        height: 400px;
+        background-color: transparent;
+    }
+
+    span {
+        color: rgb(49, 46, 235);
+    }
+}
+
+.project-card > div:first-child {
+    margin-right: 20px;
+}
+
+.tech-stack {
+    color: rgb(29, 189, 230);
+}
