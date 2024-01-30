@@ -17,7 +17,7 @@ export default function HomePage() {
       </div>
       <div className="">
         <Routes>
-          <Route path="/" element={<Profile />} />
+          <Route path="/nipuna-jayathilaka-portfolio" element={<Profile />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
