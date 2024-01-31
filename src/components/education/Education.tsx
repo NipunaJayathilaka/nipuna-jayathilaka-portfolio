@@ -9,7 +9,7 @@ export default function Education() {
       <div className="education-card">
         <div className="ins-logo">
           <img
-            src="/nipuna-jayathilaka-portfolio/images/education/uom.PNG"
+            src="/nipuna-jayathilaka-portfolio/images/education/uom.png"
             alt="Logo"
           />
         </div>
