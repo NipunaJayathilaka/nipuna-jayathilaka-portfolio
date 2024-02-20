@@ -5,12 +5,12 @@ export default function Profile() {
   return (
     <div className="main">
       <div className="galaxy-background">
-        <img
+        {/* <img
           id="img-one"
           src="/nipuna-jayathilaka-portfolio/images/common/img2.png"
           alt=""
-        />
-        <img
+        /> */}
+        {/* <img
           id="img-two"
           src="/nipuna-jayathilaka-portfolio/images/common/img2.png"
           alt=""
@@ -44,7 +44,7 @@ export default function Profile() {
           id="star-four"
           src="/nipuna-jayathilaka-portfolio/images/common/star2.png"
           alt=""
-        />
+        /> */}
         <h1 id="profile-topic">Welcome to Nipuna Jayathilaka's Portfolio!</h1>
 
         <div className="welcome-note">

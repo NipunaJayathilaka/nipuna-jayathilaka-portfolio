@@ -33,7 +33,7 @@
         /* border: 5px double black; */
         padding: 10px 20px;
         border-radius: 20px;
-        color: white;
+        color: black;
     }
 }
 
@@ -120,11 +120,13 @@
 
 .galaxy-background {
     position: relative;
-    background-image: url("/public/images/galaxy.jpg");
+    background-image: url("/public/images/profileBG2.jpg");
     z-index: -10;
     padding-top: 5px;
     padding-bottom: 10px;
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #img-one {
